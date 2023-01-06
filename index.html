@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Password Generator</title>
+
+        <link rel="stylesheet" href="./css/index.css" />
+        <script
+            src="https://kit.fontawesome.com/009c726f35.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <section class="hero">
+            <div class="container">
+                <h1 class="title">Generate a <span>random password</span></h1>
+                <p class="text">Never use an insecure password again</p>
+            </div>
+        </section>
+        <section class="passwords">
+            <div class="container">
+                <form action="" class="options" id="options">
+                    <h2 class="title form-title">Additional Options</h2>
+                    <div class="form-elem">
+                        <label for="length">Length</label>
+                        <input
+                            type="number"
+                            name="length"
+                            id="length"
+                            min="8"
+                            max="15"
+                        />
+                    </div>
+                    <div class="form-elem">
+                        <fieldset>
+                            <p>Symbols</p>
+                            <div class="radio-btn">
+                                <label for="symbol-option">On</label>
+                                <input
+                                    type="radio"
+                                    name="symbol-option"
+                                    id="on"
+                                    checked
+                                />
+                            </div>
+                            <div class="radio-btn">
+                                <label for="off">Off</label>
+                                <input
+                                    type="radio"
+                                    name="symbol-option"
+                                    id="off"
+                                />
+                            </div>
+                        </fieldset>
+                    </div>
+                    <input
+                        class="btn"
+                        type="submit"
+                        value="Generate Password"
+                    />
+                </form>
+                <ul id="root" class="password"></ul>
+            </div>
+        </section>
+        <script src="./passwordString.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>

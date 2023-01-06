@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.container {
+  width: 60%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  background-color: hsl(215deg, 28%, 17%);
+  color: hsl(210deg, 20%, 98%);
+}
+
+.title span {
+  display: block;
+  color: hsl(144deg, 70%, 58%);
+}
+
+.btn {
+  color: hsl(210deg, 20%, 98%);
+  background-color: hsl(160deg, 84%, 39%);
+  border-color: transparent;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: hsl(210deg, 20%, 98%);
+  color: hsl(160deg, 84%, 39%);
+}
+
+.password li {
+  background-color: hsl(215deg, 30%, 22%);
+}
+
+.icon {
+  color: hsl(160deg, 84%, 39%);
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+}
+
+.form-title {
+  font-size: 1.25rem;
+}
+
+.btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.btn, .password {
+  font-size: 1rem;
+}
+
+.title, .form-elem {
+  margin-bottom: 0.625rem;
+}
+
+.hero {
+  margin: 7.1875rem 0 3.1875rem;
+}
+
+.options {
+  margin-bottom: 3.1875rem;
+}
+
+.password {
+  list-style: none;
+  padding: 2.1875rem 0;
+  border-top: 2px solid hsl(215deg, 28%, 25%);
+  gap: 1.5rem;
+}
+@media (min-width: 550px) {
+  .password {
+    display: flex;
+  }
+}
+.password li {
+  padding: 0.75rem 1.75rem;
+  margin-bottom: 0.625rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.password .icon {
+  display: inline-block;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.password .icon:hover {
+  color: hsl(210deg, 20%, 98%);
+}
+
+fieldset {
+  border: 2px solid hsl(215deg, 28%, 25%);
+  padding: 0.625rem;
+}
+fieldset p {
+  margin-bottom: 0.625rem;
+}
+fieldset .radio-btn + .radio-btn {
+  margin-top: 0.625rem;
+}
+
+.btn {
+  padding: 0.5625rem 0.9375rem;
+  border-radius: 0.6rem;
+}
+
+/*# sourceMappingURL=index.css.map */
